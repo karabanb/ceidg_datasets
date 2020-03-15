@@ -4,7 +4,73 @@ This repository contains samples of data gathered from [Centralna Ewidencja Dzia
 
 Raw entry in json format looks like this:
 
-
+```
+{
+  "_id":"024c41b92bfdc22fa218242b30683c32",
+  "DanePodstawowe":{
+    "Imie":"Janusz",
+    "Nazwisko":"Szklarczyk",
+    "NIP":"1130106921",
+    "REGON":"011138543",
+    "Firma":"WAWA OPERATOR JANUSZ SZKLARCZYK"
+  },
+  "DaneKontaktowe":{
+    "AdresPocztyElektronicznej":"j23gpw@onet.eu",
+    "AdresStronyInternetowej":null,
+    "Telefon":null,
+    "Faks":null
+  },
+  "DaneAdresowe":{
+    "AdresGlownegoMiejscaWykonywaniaDzialalnosci":{
+      "TERC":"1465098",
+      "SIMC":"0988810",
+      "ULIC":"11899",
+      "Miejscowosc":"Warszawa",
+      "Ulica":"Magenta",
+      "Budynek":"155",
+      "KodPocztowy":"04-429",
+      "Poczta":"Warszawa",
+      "Gmina":"Rembertów",
+      "Powiat":"Warszawa",
+      "Wojewodztwo":"mazowieckie"
+    },
+    "AdresDoDoreczen":{
+      "TERC":"1465098",
+      "SIMC":"0988810",
+      "ULIC":"11899",
+      "Miejscowosc":"Warszawa",
+      "Ulica":"Magenta",
+      "Budynek":"155",
+      "KodPocztowy":"04-429",
+      "Poczta":"Warszawa",
+      "Gmina":"Rembertów",
+      "Powiat":"Warszawa",
+      "Wojewodztwo":"mazowieckie"
+    },
+    "PrzedsiebiorcaPosiadaObywatelstwaPanstw":"Polska"
+  },
+  "DaneDodatkowe":{
+    "DataRozpoczeciaWykonywaniaDzialalnosciGospodarczej":"2012-01-01",
+    "DataZawieszeniaWykonywaniaDzialalnosciGospodarczej":"2019-02-28",
+    "DataWznowieniaWykonywaniaDzialalnosciGospodarczej":null,
+    "DataZaprzestaniaWykonywaniaDzialalnosciGospodarczej":null,
+    "DataWykresleniaWpisuZRejestru":null,
+    "MalzenskaWspolnoscMajatkowa":"tak",
+    "Status":"Zawieszony",
+    "KodyPKD":"5320Z,
+    4649Z,
+    4690Z,
+    9529Z"
+  },
+  "SpolkiCywilneKtorychWspolnikiemJestPrzedsiebiorca":null,
+  "Zakazy":null,
+  "InformacjeDotyczaceUpadlosciPostepowaniaNaprawczego":null,
+  "PelnomocnicyPrzedsiebiorcy":null,
+  "Uprawnienia":{
+    "Uprawnienie":"od 2012-01-26 do  Rejestr operatorów pocztowych  (wprowadzone przez Urząd Komunikacji Elektronicznej Warszawa)"
+  }
+}
+```
 
 
 ## Dataset #1. Continuity of the Business in next 12 months.
