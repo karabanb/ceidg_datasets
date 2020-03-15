@@ -21,11 +21,14 @@ Based on the raw data, the following features were created:
 - **IsEmail**: Checking if the email has been filled in the register (filling in the field is optional).
 - **IsWWW**: Checking if the web address has been filled in the register (filling in the field is optional).
 - **CommunityProperty**: 
-- **HasLicences**.
+- **HasLicences**: Checking if the business is running with special permissions (eg. sale of alcohol, transportation of people).
 - **NoOfLicences**.
-- **Sex**.
+- **Sex**: Variable has been created by checking the last letter of a name. If the last letter is 'a' then sex is defined as female, otherwise as male. The disadvantage of this approach is the possibility of not classifying foreigners correctly.
 - **HasPolishCitizenship**.
 - **ShareholderInOtherCompanies**.
+
+Features listed below based on [Polska Klasyfikacja Działalności](https://www.biznes.gov.pl/en/classification-pkd-code)
+
 - **PKDMainSection**.
 - **PKDMainDivision**.
 - **PKDMainGroup**.
@@ -35,6 +38,5 @@ Based on the raw data, the following features were created:
 - **NoOfUniquePKDGroups**.
 - **NoOfUniquePKDClasses**.
 
-## Dataset #2. Time of Survival of the Businesses from Day of Registration.
 
 
