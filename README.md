@@ -8,14 +8,14 @@ This repository contains samples of data gathered from [Centralna Ewidencja Dzia
 Based on the raw data, the following features were created:
 - **RandomDate**: Randomly chose date beetween 01-11-2017 and 01-11-2018 (or date of termination or suspension if continuity of the Business were stopped earlier in this period).
 - **Target**: The binary variable indicates if continuity of the business was broken in **12 months from random date**. 
-- **MonthOfStartingOfTheBusiness**.
-- **QuarterOfStartingOfTheBusiness**.
+- **MonthOfStartingOfTheBusiness**: The month of registering a business in the CEIDG registry.
+- **QuarterOfStartingOfTheBusiness**: The quarter of registering a business in the CEIDG registry.
 - **MainAddressVoivodeship**.
 - **MainAddressCounty**.
 - **CorrespondenceAddressVoivodeship**.
 - **CorrespondenceAddressCounty**.
-- **MainAndCorrespondenceAreTheSame**.
-- **DurationOfExistenceInMonths**.
+- **MainAndCorrespondenceAreTheSame**: Checking if the correspondence address and the main address are the same (with an accuracy to the street).
+- **DurationOfExistenceInMonths**: Time in months from registering of the business to **RandomDate** (months was 
 - **NoOfAdditionalPlaceOfTheBusiness**.
 - **IsPhoneNo**.
 - **IsEmail**.
