@@ -15,12 +15,12 @@ Based on the raw data, the following features were created:
 - **CorrespondenceAddressVoivodeship**.
 - **CorrespondenceAddressCounty**.
 - **MainAndCorrespondenceAreTheSame**: Checking if the correspondence address and the main address are the same (with an accuracy to the street).
-- **DurationOfExistenceInMonths**: Time in months from registering of the business to **RandomDate** (months was 
+- **DurationOfExistenceInMonths**: Time in months from registering of the business to **RandomDate** (results has been rounded down to the nearest integer). 
 - **NoOfAdditionalPlaceOfTheBusiness**.
-- **IsPhoneNo**.
-- **IsEmail**.
-- **IsWWW**.
-- **CommunityProperty**.
+- **IsPhoneNo**: Checking if the phone number has been filled in the register (filling in the field is optional).
+- **IsEmail**: Checking if the email has been filled in the register (filling in the field is optional).
+- **IsWWW**: Checking if the web address has been filled in the register (filling in the field is optional).
+- **CommunityProperty**: 
 - **HasLicences**.
 - **NoOfLicences**.
 - **Sex**.
