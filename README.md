@@ -4,7 +4,7 @@ This repository contains samples of data gathered from [Centralna Ewidencja Dzia
 
 Raw entry in json format looks like this:
 
-``` javascript
+``` json
 {
   "_id":"024c41b92bfdc22fa218242b30683c32",
   "DanePodstawowe":{
@@ -71,6 +71,9 @@ Raw entry in json format looks like this:
   }
 }
 ```
+
+Record in dataset based on example presented abowe after preprocessing looks like this:
+
 
 
 ## Dataset #1. Continuity of the Business in next 12 months.
