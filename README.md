@@ -4,7 +4,7 @@ This repository contains samples of data gathered from [Centralna Ewidencja Dzia
 
 Raw entry in json format looks like this:
 
-```
+``` javascript
 {
   "_id":"024c41b92bfdc22fa218242b30683c32",
   "DanePodstawowe":{
