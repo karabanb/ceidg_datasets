@@ -74,6 +74,10 @@ Raw entry in json format looks like this:
 
 Record in dataset based on example presented abowe after preprocessing looks like this:
 
+|NIP        |RandomDate |MonthOfStartingOfTheBusiness |QuarterOfStartingOfTheBusiness |MainAddressVoivodeship |MainAddressCounty |CorrespondenceAddressVoivodeship |CorrespondenceAddressCounty |MainAndCorrespondenceAreTheSame | DurationOfExistenceInMonths| NoOfAdditionalPlaceOfTheBusiness|IsPhoneNo |IsEmail |IsWWW |CommunityProperty |HasLicences | NoOfLicences|Sex |HasPolishCitizenship |ShareholderInOtherCompanies |PKDMainSection |PKDMainDivision |PKDMainGroup |PKDMainClass | NoOfUniquePKDSections| NoOfUniquePKDDivsions| NoOfUniquePKDGroups| NoOfUniquePKDClasses| Target|
+|:----------|:----------|:----------------------------|:------------------------------|:----------------------|:-----------------|:--------------------------------|:---------------------------|:-------------------------------|---------------------------:|--------------------------------:|:---------|:-------|:-----|:-----------------|:-----------|------------:|:---|:--------------------|:---------------------------|:--------------|:---------------|:------------|:------------|---------------------:|---------------------:|-------------------:|--------------------:|------:|
+|1130106921 |2018-04-30 |January                      |Q1                             |MAZOWIECKIE            |WARSZAWA          |MAZOWIECKIE                      |WARSZAWA                    |TRUE                            |                          75|                                0|FALSE     |TRUE    |FALSE |tak               |TRUE        |            1|M   |TRUE                 |FALSE                       |H              |53              |532          |5320         |                     3|                     3|                   4|                    4|      1|
+
 
 
 ## Dataset #1. Continuity of the Business in next 12 months.
