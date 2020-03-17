@@ -2,6 +2,11 @@
 
 Repository with samples of datasets created from data collected from CEIDG registry. [Centralna Ewidencja Dzialalnosci Gospodarczej](https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx).
 
+Repository contains two datasets:
+
+* Continuity of the business in next 12 months.
+* Survival of businesses registred in 2012.
+
 Each dataset has been made from raw entry looks like this:
 
 ``` json
@@ -74,10 +79,6 @@ Each dataset has been made from raw entry looks like this:
 <br>
 <br>
 
-Repository contains two datasets:
-
-* Continuity of the business in next 12 months.
-* Survival of businesses registred in 2012.
 
 ## Dataset #1: Continuity of the business in next 12 months.
 
@@ -95,7 +96,7 @@ Record in dataset based on example presented abowe after preprocessing looks lik
 
 <br>
 
-List of features with explanation (if it's neccassry):
+List of features with explanation (if it's necessary):
 
 - **RandomDate**: Randomly chose date beetween 01-11-2017 and 01-11-2018 (or date of termination or suspension if continuity of the Business were stopped earlier in this period).
 - **Target**: The binary response variable indicates if continuity of the business was broken in **12 months from random date**. 
@@ -140,7 +141,7 @@ Short description:
 * no of features 26.
 * survival analysis problem.
 
-List of features with explanation (if it's neccassry):
+List of features with explanation (if it's neccessary):
 
 - **Status**.
 - **StartingDateOfTheBusiness**.
