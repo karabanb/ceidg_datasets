@@ -1,6 +1,6 @@
 # CEIDG Datasets
 
-This repository contains samples of data gathered from [Centralna Ewidencja Dzialalnosci Gospodarczej](https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx).
+This repository contains samples of datasets created from data collected from CEIDG registry.[Centralna Ewidencja Dzialalnosci Gospodarczej](https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx).
 
 Raw entry in json format looks like this:
 
