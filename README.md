@@ -13,14 +13,14 @@ Each dataset has been made from raw entry looks like this:
 {
   "_id":"024c41b92bfdc22fa218242b30683c32",
   "DanePodstawowe":{
-    "Imie":"Dejta",
-    "Nazwisko":"Sajensonowicz",
-    "NIP":"00000000",           #fake NIP
-    "REGON":"00000000",         #fake REGON
-    "Firma":"Jakaś tam firma"
+    "Imie":"Dejta",                               # fake name
+    "Nazwisko":"Sajensonowicz",                   # fake surname
+    "NIP":"00000000",                             # fake NIP
+    "REGON":"00000000",                           # fake REGON
+    "Firma":"Jakaś tam firma"                     # fake company name
   },
   "DaneKontaktowe":{
-    "AdresPocztyElektronicznej":"some@email.com",
+    "AdresPocztyElektronicznej":"some@email.com", #fake email
     "AdresStronyInternetowej":null,
     "Telefon":null,
     "Faks":null
