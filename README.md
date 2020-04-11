@@ -9,18 +9,18 @@ Repository contains two datasets:
 
 Each dataset has been made from raw entry looks like this:
 
-``` json
+``` 
 {
   "_id":"024c41b92bfdc22fa218242b30683c32",
   "DanePodstawowe":{
-    "Imie":"Janusz",
-    "Nazwisko":"Szklarczyk",
-    "NIP":"1130106921",
-    "REGON":"011138543",
-    "Firma":"WAWA OPERATOR JANUSZ SZKLARCZYK"
+    "Imie":"Dejta",                               # fake name
+    "Nazwisko":"Sajensonowicz",                   # fake surname
+    "NIP":"00000000",                             # fake NIP
+    "REGON":"00000000",                           # fake REGON
+    "Firma":"Jakaś tam firma"                     # fake company name
   },
   "DaneKontaktowe":{
-    "AdresPocztyElektronicznej":"j23gpw@onet.eu",
+    "AdresPocztyElektronicznej":"some@email.com", #fake email
     "AdresStronyInternetowej":null,
     "Telefon":null,
     "Faks":null
@@ -92,7 +92,7 @@ Record in dataset based on example presented abowe after preprocessing looks lik
 
 |NIP        |RandomDate |MonthOfStartingOfTheBusiness |QuarterOfStartingOfTheBusiness |MainAddressVoivodeship |MainAddressCounty |CorrespondenceAddressVoivodeship |CorrespondenceAddressCounty |MainAndCorrespondenceAreTheSame | DurationOfExistenceInMonths| NoOfAdditionalPlaceOfTheBusiness|IsPhoneNo |IsEmail |IsWWW |CommunityProperty |HasLicences | NoOfLicences|Sex |HasPolishCitizenship |ShareholderInOtherCompanies |PKDMainSection |PKDMainDivision |PKDMainGroup |PKDMainClass | NoOfUniquePKDSections| NoOfUniquePKDDivsions| NoOfUniquePKDGroups| NoOfUniquePKDClasses| Target|
 |:----------|:----------|:----------------------------|:------------------------------|:----------------------|:-----------------|:--------------------------------|:---------------------------|:-------------------------------|---------------------------:|--------------------------------:|:---------|:-------|:-----|:-----------------|:-----------|------------:|:---|:--------------------|:---------------------------|:--------------|:---------------|:------------|:------------|---------------------:|---------------------:|-------------------:|--------------------:|------:|
-|1130106921 |2018-04-30 |January                      |Q1                             |MAZOWIECKIE            |WARSZAWA          |MAZOWIECKIE                      |WARSZAWA                    |TRUE                            |                          75|                                0|FALSE     |TRUE    |FALSE |tak               |TRUE        |            1|M   |TRUE                 |FALSE                       |H              |53              |532          |5320         |                     3|                     3|                   4|                    4|      1|
+|00000000 |2018-04-30 |January                      |Q1                             |MAZOWIECKIE            |WARSZAWA          |MAZOWIECKIE                      |WARSZAWA                    |TRUE                            |                          75|                                0|FALSE     |TRUE    |FALSE |tak               |TRUE        |            1|M   |TRUE                 |FALSE                       |H              |53              |532          |5320         |                     3|                     3|                   4|                    4|      1|
 
 <br>
 
@@ -179,7 +179,7 @@ Example record:
 
 |NIP        |Status     | YearOfStartingOfTheBusiness|StartingDateOfTheBusiness |DateOfTermination | Terminated| DurationOfExistenceInMonths|MainAddressVoivodeship |MainAddressCounty |CorrespondenceAddressVoivodeship |CorrespondenceAddressCounty |MainAndCorrespondenceAreTheSame | NoOfAdditionalPlaceOfTheBusiness|IsPhoneNo |IsEmail |IsWWW |CommunityProperty |HasLicences | NoOfLicences|Sex |HasPolishCitizenship |ShareholderInOtherCompanies |PKDMainSection |PKDMainDivision |PKDMainGroup |PKDMainClass | NoOfUniquePKDSections| NoOfUniquePKDDivsions| NoOfUniquePKDGroups| NoOfUniquePKDClasses|
 |:----------|:----------|---------------------------:|:-------------------------|:-----------------|----------:|---------------------------:|:----------------------|:-----------------|:--------------------------------|:---------------------------|:-------------------------------|--------------------------------:|:---------|:-------|:-----|:-----------------|:-----------|------------:|:---|:--------------------|:---------------------------|:--------------|:---------------|:------------|:------------|---------------------:|---------------------:|-------------------:|--------------------:|
-|1130002216 |Wykreślony |                        2011|2011-01-01                |2015-08-06        |          1|                          55|MAZOWIECKIE            |WARSZAWA          |MAZOWIECKIE                      |WARSZAWA                    |TRUE                            |                                0|FALSE     |FALSE   |FALSE |-                 |FALSE       |            0|M   |TRUE                 |FALSE                       |F              |43              |432          |4322         |                     1|                     1|                   1|                    1|
+|00000000 |Wykreślony |                        2011|2011-01-01                |2015-08-06        |          1|                          55|MAZOWIECKIE            |WARSZAWA          |MAZOWIECKIE                      |WARSZAWA                    |TRUE                            |                                0|FALSE     |FALSE   |FALSE |-                 |FALSE       |            0|M   |TRUE                 |FALSE                       |F              |43              |432          |4322         |                     1|                     1|                   1|                    1|
 
 
 
