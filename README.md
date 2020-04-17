@@ -84,7 +84,7 @@ Each dataset has been made from raw entry looks like this:
 
 Short description:
 
-* no of records 100 000 (split into sets: 70% train-valid / 30% test).
+* 2 401 055 records
 * no of features 27.
 * binnary classifiaction problem
 
@@ -104,8 +104,10 @@ List of features with explanation (if it's necessary):
 - **QuarterOfStartingOfTheBusiness**: The quarter of registering a business in the CEIDG registry.
 - **MainAddressVoivodeship**.
 - **MainAddressCounty**.
+- **MainAddressTERC: Helper column.** [TERC Code](https://pl.wikipedia.org/wiki/TERC). May be used for data enhacement form other data sources (eg. GUS BDL via **[R_Package_to_API_BDL](https://github.com/statisticspoland/R_Package_to_API_BDL)**).
 - **CorrespondenceAddressVoivodeship**.
 - **CorrespondenceAddressCounty**.
+- **CorrespondenceAddressTERC: Helper column.** [TERC Code](https://pl.wikipedia.org/wiki/TERC). May be used for data enhacement form other data sources (eg. GUS BDL via **[R_Package_to_API_BDL](https://github.com/statisticspoland/R_Package_to_API_BDL)**). 
 - **MainAndCorrespondenceAreTheSame**: Checking if the correspondence address and the main address are the same (with an accuracy to the street).
 - **DurationOfExistenceInMonths**: Time in months from registering of the business to **RandomDate** (results has been rounded down to the nearest integer). 
 - **NoOfAdditionalPlaceOfTheBusiness**.
