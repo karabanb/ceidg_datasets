@@ -4,8 +4,8 @@ Repository with samples of datasets created from data collected from CEIDG regis
 
 Repository contains two datasets:
 
-* [Continuity of the business in next 12 months](data/100_CEIDG_classification_sample.csv).
-* [Survival of businesses registered in 2011](data/100_CEIDG_survival_2011_sample.csv).
+* **Continuity of the business in next 12 months**
+* **Survival of businesses registered in 2011**
 
 Each dataset has been made from raw entry looks like this:
 
@@ -80,13 +80,15 @@ Each dataset has been made from raw entry looks like this:
 <br>
 
 
-## Dataset #1: [Continuity of the business in next 12 months.](data/100_CEIDG_classification_sample.csv)
+## Dataset #1: **Continuity of the business in next 12 months**
 
 Short description:
 
 * 2 401 055 records
 * no of features 27.
 * binnary classifiaction problem
+
+**Full dataset**: [Click here](https://tiny.pl/7xttv)
 
 Record in dataset based on example presented abowe after preprocessing looks like this:
 
@@ -135,13 +137,15 @@ Features listed below based on [Polska Klasyfikacja Działalności](https://www.
 <br>
 <br>
 
-## Dataset #2: [Survival of the businesses registred in 2011.](data/100_CEIDG_survival_2011_sample.csv)
+## Dataset #2: **Survival of the businesses registred in 2011**
 
 Short description:
 
 * no of records 287 019 (all businesses registered in 2011).
 * no of features 26.
 * survival analysis problem.
+
+**Full dataset**: [Click here](https://tiny.pl/7xm7r)
 
 List of features with explanation (if it's neccessary):
 
