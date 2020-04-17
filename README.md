@@ -156,8 +156,10 @@ List of features with explanation (if it's neccessary):
 - **DurationOfExistenceInMonths**: Time in months from registering of the business to 2020-03-01.
 - **MainAddressVoivodeship**.
 - **MainAddressCounty**.
+- **MainAddressTERC: Helper column.** [TERC Code](https://pl.wikipedia.org/wiki/TERC). May be used for data enhacement form other data sources (eg. GUS BDL via **[R_Package_to_API_BDL](https://github.com/statisticspoland/R_Package_to_API_BDL)**).
 - **CorrespondenceAddressVoivodeship**.
 - **CorrespondenceAddressCounty**.
+- **CorrespondenceAddressTERC: Helper column.** [TERC Code](https://pl.wikipedia.org/wiki/TERC). May be used for data enhacement form other data sources (eg. GUS BDL via **[R_Package_to_API_BDL](https://github.com/statisticspoland/R_Package_to_API_BDL)**). 
 - **MainAndCorrespondenceAreTheSame**: Checking if the correspondence address and the main address are the same (with an accuracy to the street). 
 - **NoOfAdditionalPlaceOfTheBusiness**.
 - **IsPhoneNo**: Checking if the phone number has been filled in the register (filling in the field is optional).
