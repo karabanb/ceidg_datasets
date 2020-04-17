@@ -4,8 +4,8 @@ Repository with samples of datasets created from data collected from CEIDG regis
 
 Repository contains two datasets:
 
-* **Continuity of the business in next 12 months**
-* **Survival of businesses registered in 2011**
+* [**Continuity of the business in next 12 months**](https://tiny.pl/7xttv)
+* [**Survival of businesses registered in 2011**](https://tiny.pl/7xm7r)
 
 Each dataset has been made from raw entry looks like this:
 
